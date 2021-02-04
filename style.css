@@ -1,12 +1,13 @@
 
 body{
-    background: rgb(211, 211, 211); margin:0;
+    background: rgb(26, 26, 26); margin:0;
 }
 div{
     box-sizing: border-box;
 }
 header{
-    background: white; padding: 15px;
+    background: rgb(26, 26, 26); padding: 15px;
+    color: honeydew;
 }
 header h1{
     margin: 0;
@@ -18,22 +19,23 @@ div.post-feed{
 }
 div.post-feed img{
     width: 100%;
-    height: 400px;
-    width: 200px;
+    
 }
 div.post-feed .post-header div:first-child{
     display: inline-block;
-    width: 80%;
+    height: 40px;
+    width: 90%;
+    margin: 10px;
 }
 div.post-feed .post-header div:last-child{
     display: inline-block;
-    width: 20%;
+    width: 10%;
     text-align: right;
     padding: 10px;
     color: rgb(153, 152, 152);
 }
 
-div.post-feed h2, div.post-feed p{
+div.post-feed h2, h4, div.post-feed p{
     padding: 10px;
     margin: 0;
 }
@@ -43,3 +45,8 @@ div.container{
     margin: auto;
 }
 
+.icons{
+    padding: 5px;
+    margin: 5px;
+    
+}
